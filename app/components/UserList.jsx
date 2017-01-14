@@ -6,7 +6,7 @@ class UserList extends Component {
     // static UserRow loading as a first step
     render() {
         return (
-            <div>
+            <div style={{ margin: '0 auto', width: '30em' }}>
                 <UserRow ID="1" name="Jose" email="jose@carlos.es" active={true}/>
                 <UserRow ID="2" name="Jose" email="jose@carlos.es" active={true}/>
                 <UserRow ID="3" name="Jose" email="jose@carlos.es" active={true}/>
