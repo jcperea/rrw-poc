@@ -6,7 +6,7 @@ const UserRow = (props) => {
             <div><span>ID:</span><span>{props.ID}</span></div>
             <div><span>Name:</span><span>{props.name}</span></div>
             <div><span>email:</span><span>{props.email}</span></div>
-            <div><span>active:</span><span>{props.active}</span></div>
+            <div><span>active:</span><span>{props.active?'SI':'NO'}</span></div>
         </div>
     )
 
