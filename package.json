@@ -1,0 +1,31 @@
+{
+  "name": "rrw-poc",
+  "version": "0.0.1",
+  "description": "This is a React/Redux/Webpack PoC",
+  "scripts": {
+    "start": "echo \"Error: no start... yet!\" && exit 1",
+    "build": "webpack --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/jcperea/rrw-poc"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Webpack",
+    "PoC"
+  ],
+  "author": "jcperea",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
