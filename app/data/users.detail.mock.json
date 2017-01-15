@@ -1,0 +1,47 @@
+[
+    {
+        "ID": "1",
+        "nombre": "José Carlos",
+        "password": "bk0329$anso",
+        "gender": "hombre",
+        "birthdate": "01/01/1980",
+        "email": "jose.carlos@correofake.es",
+        "active": true
+    },
+    {
+        "ID": "2",
+        "nombre": "Pedro Javier",
+        "password": "bk0329$paos",
+        "gender": "hombre",
+        "birthdate": "01/02/1980",
+        "email": "pedro.javier@correofake.es",
+        "active": true
+    },
+    {
+        "ID": "3",
+        "nombre": "Alberto López",
+        "password": "bk0329$swds",
+        "gender": "hombre",
+        "birthdate": "01/03/1980",
+        "email": "alberto.lopez@correofake.es",
+        "active": true
+    },
+    {
+        "ID": "4",
+        "nombre": "Juan Pedro",
+        "password": "bk0329$asda",
+        "gender": "hombre",
+        "birthdate": "01/04/1980",
+        "email": "juan.pedro@correofake.es",
+        "active": false
+    },
+    {
+        "ID": "5",
+        "nombre": "Carla Martín",
+        "password": "bk0329$eopi",
+        "gender": "mujer",
+        "birthdate": "01/05/1980",
+        "email": "carla.martin@correofake.es",
+        "active": true
+    }
+]

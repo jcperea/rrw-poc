@@ -1,0 +1,32 @@
+[
+    {
+        "ID": "1",
+        "name": "José Carlos",
+        "email": "jose.carlos@correofake.es",
+        "active": true
+    },
+    {
+        "ID": "2",
+        "name": "Pedro Javier",
+        "email": "pedro.javier@correofake.es",
+        "active": true
+    },
+    {
+        "ID": "3",
+        "name": "Alberto López",
+        "email": "alberto.lopez@correofake.es",
+        "active": true
+    },
+    {
+        "ID": "4",
+        "name": "Juan Pedro",
+        "email": "juan.pedro@correofake.es",
+        "active": false
+    },
+    {
+        "ID": "5",
+        "name": "Carla Martín",
+        "email": "carla.martin@correofake.es",
+        "active": true
+    }
+]
