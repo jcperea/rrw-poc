@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 
 const UserRow = (props) => {
     return (
-        <div style={{border: '1px solid black', marginBottom: '5px', width: '30em'}}>
+        <div style={{border: '1px solid black', marginBottom: '10px', width: '30em', cursor: 'pointer'}}>
             <div><span>ID:</span><span>{props.ID}</span></div>
             <div><span>Name:</span><span>{props.name}</span></div>
             <div><span>email:</span><span>{props.email}</span></div>
