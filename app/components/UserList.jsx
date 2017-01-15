@@ -9,7 +9,7 @@ class UserList extends Component {
     render() {
         return (
             <div style={{ margin: '0 auto', width: '30em' }}>
-            {Mock.map(user => <UserRow ID={user.ID} name={user.name} email={user.email} active={user.active} />)}
+            {Mock.map(user => <UserRow ID={user.ID} name={user.name} email={user.email} active={user.active} key={user.ID} />)}
             </div>
         )
     }
