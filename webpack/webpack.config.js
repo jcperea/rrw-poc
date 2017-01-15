@@ -12,6 +12,10 @@ module.exports = {
             test: /\.jsx?$/,
             loader: 'babel-loader',
             exclude: /node_modules|build/
+        },
+        {
+            test: /\.json$/,
+            loader: 'json-loader'
         }]
     },
     resolve: {
@@ -20,6 +24,7 @@ module.exports = {
     entry: APP_DIR + '/index.jsx',
     output: {
         path: BUILD_DIR,
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        publicPath: '/'
     }
 };
