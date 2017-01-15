@@ -42,6 +42,6 @@
         "gender": "mujer",
         "birthdate": "01/05/1980",
         "email": "carla.martin@correofake.es",
-        "active": true
+        "active": false
     }
 ]

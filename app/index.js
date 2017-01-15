@@ -7,9 +7,9 @@ import { createStore } from 'redux'
 import Login from './components/Login.jsx'
 import UserList from './components/UserList.jsx'
 import UserDetail from './components/UserDetail.jsx'
-import reducer from './reducers'
+import {activeFilter} from './reducers'
 
-const store = createStore(reducer)
+const store = createStore(activeFilter)
 
 render((
 
