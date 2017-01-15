@@ -27,6 +27,6 @@
         "ID": "5",
         "name": "Carla Martín",
         "email": "carla.martin@correofake.es",
-        "active": true
+        "active": false
     }
 ]
