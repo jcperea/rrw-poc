@@ -13,10 +13,10 @@ const UserRow = (props) => {
 }
 
 UserRow.propTypes = {
-  ID: React.PropTypes.string.isRequired,
-  name: React.PropTypes.string.isRequired,
-  email: React.PropTypes.string.isRequired,
-  active: React.PropTypes.bool.isRequired
+  ID: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
+  active: PropTypes.bool.isRequired
 };
 
 export default UserRow;

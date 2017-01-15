@@ -11,7 +11,7 @@ class TextBox extends Component {
     }
 
     render() {
-        return <input type="{this.props.type}" />
+        return <input type={this.props.type} />
     }
 }
 

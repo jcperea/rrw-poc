@@ -11,7 +11,7 @@ class Button extends Component {
     }
 
     render() {
-        return <button>{this.props.value}</button>
+        return <input type="submit" value={this.props.value} />
     }
 }
 

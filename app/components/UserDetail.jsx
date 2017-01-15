@@ -15,14 +15,14 @@ const UserDetail = (props) => {
 }
 
 UserDetail.propTypes = {
-  ID:           React.PropTypes.string.isRequired,
-  nombre:       React.PropTypes.string.isRequired,
-  password:     React.PropTypes.string.isRequired,
-  lastname:     React.PropTypes.string.isRequired,
-  gender:       React.PropTypes.oneOf(['hombre', 'mujer']).isRequired,
-  birthdate:    React.PropTypes.string.isRequired,
-  email:        React.PropTypes.string.isRequired,
-  active:       React.PropTypes.bool.isRequired
+  ID:           PropTypes.string.isRequired,
+  nombre:       PropTypes.string.isRequired,
+  password:     PropTypes.string.isRequired,
+  lastname:     PropTypes.string.isRequired,
+  gender:       PropTypes.oneOf(['hombre', 'mujer']).isRequired,
+  birthdate:    PropTypes.string.isRequired,
+  email:        PropTypes.string.isRequired,
+  active:       PropTypes.bool.isRequired
 };
 
 export default UserDetail;
